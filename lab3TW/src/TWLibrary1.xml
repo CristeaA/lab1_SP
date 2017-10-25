@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<queue>
+		<link id="233"  pagini="200"  nume ="adi" an ="2017">
+			<name>Paul Graham -- The Roots of Lisp</name>
+			<uri>http://www.paulgraham.com/rootsoflisp.html</uri>
+			<name>The Evolution of Lisp</name>
+			<name>The Evolution of Lisp</name>
+			
+		</link>
+		<link id="233"  pagini="200"  nume ="adi" an ="2017">
+			<name>LL1: Lightweight Languages Workshop</name>
+			<uri>http://ll1.ai.mit.edu/</uri>
+			<name>The Evolution of Lisp</name>
+			<name>The Evolution of Lisp</name>
+		</link>
+		<link id="233"  pagini="200"  nume ="adi" an ="2017" >
+			<name>The Java Language Environment</name>
+			<uri>http://java.sun.com/docs/white/langenv/</uri>
+			<name>The Evolution of Lisp</name>
+			<name>The Evolution of Lisp</name>
+		</link>
+		<link id="233"  pagini="200"  nume ="adi" an ="2017">
+			<name>The Evolution of Lisp</name>
+			<uri>http://citeseer.ist.psu.edu/steele93evolution.html</uri>
+			<name>The Evolution of Lisp</name>
+			<name>The Evolution of Lisp</name>
+		</link>
+		<link id="233"  pagini="200"  nume ="adi" an ="2017">
+			<name>Delimited continuations in operating systems</name>
+			<name>The Evolution of Lisp</name>
+			<uri>http://okmij.org/ftp/papers/context-OS.pdf</uri>
+		</link>
+		<link id= "233"  pagini="200"  nume = "adi" an ="2017">
+			<name>Pascal Costanza's Highly Opinionated Guide to Lisp</name>
+			<name>The Evolution of Lisp</name>
+			<name>The Evolution of Lisp</name>
+			<uri>http://p-cos.net/lisp/guide.html</uri>
+		</link>
+</queue>
