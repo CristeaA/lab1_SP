@@ -9,13 +9,12 @@ public class Test {
 		Paragraf p = new Paragraf("Paragraf 1 ");
 		Tabel t = new Tabel("Tabelul");
 		Paragraf p2 = new Paragraf("Paragraf 2");
-		p2.setAligne(new CenterAlign());
 		Subcapitol s = new Subcapitol();
 		s.addElement(p);
 		s.addElement(t);
 		s.addElement(p2);
 		//System.out.println(p.text + t.titluTabel );
 		s.print();
-		t.print();		
+				
 	}
 }

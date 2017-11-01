@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Paragraf extends AbstractElement1 implements AlignStrategi {
+public class Paragraf extends AbstractElement1 {
 
 private String text;
 private ArrayList<Element> paragraf = new ArrayList<Element>();
@@ -31,12 +31,4 @@ private ArrayList<Element> paragraf = new ArrayList<Element>();
 		throw new Exception ("Cant get child here!");
 	}
 */
-	 public void setAligne(AlignStrategi text1){
-		 text1.printAlign(text);
-	 }
-	@Override
-	public void printAlign(String text) {
-		// TODO Auto-generated method stub
-		
-	}
 }

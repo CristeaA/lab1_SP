@@ -16,6 +16,6 @@ public class Test {
 		s.addElement(p2);
 		//System.out.println(p.text + t.titluTabel );
 		s.print();
-		t.print();		
+				
 	}
 }
