@@ -1,5 +1,7 @@
 
 public class Autor {
-public String nume;
-public Carte carte1 =new Carte();
+private String numeAutor;
+	public Autor(String numeAutor) {
+		this.numeAutor=numeAutor;
+	}
 }

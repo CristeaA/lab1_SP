@@ -1,9 +1,9 @@
+import java.util.ArrayList;
 
-public class Paragraf implements Element {
-	
-//private static String nume;
-String text;
+public class Paragraf extends AbstractElement1 {
 
+private String text;
+private ArrayList<Element> paragraf = new ArrayList<Element>();
 	public Paragraf(String text) {
 	
 		this.text=text;// TODO Auto-generated constructor stub
@@ -11,7 +11,7 @@ String text;
 	public void print() {
 		System.out.println(text);
 	}
-	
+	/*
 	public void addEleent(Element el) throws Exception {
 		// TODO Auto-generated method stub
 		throw new Exception("No suported element");
@@ -25,18 +25,10 @@ String text;
 	}
 
 	
-	public int getChild(int poz) {
+	public Element getChild(int poz) throws Exception {
 		// TODO Auto-generated method stub
-		return 0;
+		//return paragraf.get(poz);
+		throw new Exception ("Cant get child here!");
 	}
-	@Override
-	public void addElement(Element el) {
-		// TODO Auto-generated method stub
-		
-	}
-	@Override
-	public void remove(Element el) {
-		// TODO Auto-generated method stub
-		
-	}
+*/
 }
