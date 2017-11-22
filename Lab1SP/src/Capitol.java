@@ -1,6 +1,7 @@
 
 public class Capitol {
-	public Capitol() {
-		
+	String titlu;
+	public Capitol(String titlu) {
+		this.titlu=titlu;
 	}
 }

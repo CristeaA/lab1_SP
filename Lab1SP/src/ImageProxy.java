@@ -11,6 +11,11 @@ public class ImageProxy extends AbstractElement1{
 	public void print() {
 		System.out.println("Try to print..");
 	}
+	@Override
+	public void accept(Visitor v) {
+			v.visitImageProxy(this);
+		
+	}
 
 	
 

@@ -8,9 +8,13 @@ public class Sectiune implements Element {
 	}
 	
 	@Override
-	public void addEleent(Element el) throws Exception {
+	public void addElement(Element el) throws Exception {
 		// TODO Auto-generated method stub
 		this.secContinut.add(el);
+	}
+	public ArrayList<Element> getChilds (){
+		return secContinut;
+		
 	}
 	public void removeElement(Element el) throws Exception{
 		this.secContinut.remove(el);
@@ -19,6 +23,12 @@ public class Sectiune implements Element {
 		return  secContinut.get(poz);
 	}
 	public void print() {}
+
+	@Override
+	public void accept(Visitor v) {
+		v.visitSectiune(this);
+		
+	}
 
 	
 }

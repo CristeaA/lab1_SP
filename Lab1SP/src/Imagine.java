@@ -8,6 +8,12 @@ String titluImagine;
 	
 		this.titluImagine=titluImagine;// TODO Auto-generated constructor stub
 	}
+
+	@Override
+	public void accept(Visitor v) {
+		v.visitImage(this);
+		
+	}
 	
 	/*
 	@Override

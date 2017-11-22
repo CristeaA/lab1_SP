@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Carte {
+public class Carte implements Element{
 private String titlu;
 private ArrayList<Autor> aTeam;
 private ArrayList<Element> continut = new ArrayList<Element>();
@@ -19,9 +19,21 @@ private ArrayList<Element> continut = new ArrayList<Element>();
 			System.out.println(continut.get(i));
 		}
 	}
-	
-	public void remove(Element el) {
-		continut.remove(el);
+	public void accept(Visitor v) {
+		for(Element e:continut) {
+			e.accept(v);
+		}
+	}
+	@Override
+	public void addElement(Element el) throws Exception {
+		// TODO Auto-generated method stub
+		this.continut.add(el);
+	}
+	public void removeElement(Element el) throws Exception{
+		this.continut.remove(el);
+	}
+	public Element getChild(int poz) {
+		return  continut.get(poz);
 	}
 	
 }

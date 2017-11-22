@@ -1,7 +1,7 @@
 
 public abstract class AbstractElement1 implements Element{
 	@Override
-	public void addEleent(Element el) throws Exception {
+	public void addElement(Element el) throws Exception {
 		throw new Exception ( "Cant add element here!");// TODO Auto-generated method stub
 		
 	}
@@ -21,5 +21,5 @@ public abstract class AbstractElement1 implements Element{
 		throw new Exception ("Cant get child here!");
 	}
 	public void print() {};
-
+	
 }

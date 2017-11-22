@@ -10,7 +10,7 @@ private String titluTabel;
 	
 	@Override
 	public void print() {
-		System.out.println(titluTabel);
+		//System.out.println(titluTabel);
 		
 	}
 /*
@@ -35,4 +35,10 @@ private String titluTabel;
 		throw new Exception ("Cant get child here!");
 	}
 */
+
+	@Override
+	public void accept(Visitor v) {
+		v.visitTabel(this);
+		
+	}
 }

@@ -18,9 +18,9 @@ public class Subcapitol
 	
 	public void print()
 	{
-		for(int i=0;i<elemente.size();i++)
+		for(Element el:elemente)
 		{
-			System.out.println(elemente.get(i));
+			System.out.println(el.toString());
 		}
 		
 	}
